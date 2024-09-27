@@ -19,6 +19,7 @@
  goodbye_button = tk.Button(self, text="Say Goodbye",command=self.say_goodbye) We create a goodbye _button
  
  goodbye_button.pack(side=tk.RIGHT, padx=(0, 20), pady=(0, 20))The goodbyre _button is placed within our window 
+ 
  def say_hello(self):
 		message = "Hello there " + self.name_entry.get()
 		msgbox.showinfo("Hello", message)   The implementation of the function  say_hello helps to print the users name in a pop up window 
