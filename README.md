@@ -18,7 +18,7 @@
 			self.label_text.set(message)
 			self.after(2000, self.destroy)
 		else:                    
-        
-		    msgbox.showinfo("Not Closing", "Great! This window will stay open.") The implementation of the function  say_goosbye   provides the user with the choice to close the window 
+                   msgbox.showinfo("Not Closing", "Great! This window will stay open.") The implementation of the function  say_goosbye   provides the user with the choice to close the window 
+		    
 
 Our source  is the book "Tkinter gui programming by example by  David Love 
